@@ -49,23 +49,23 @@ The system avoids Peer-to-Peer communication to ensure security and state consis
 
 1. Start the Server
 
-javac BattleShipServer.java
-java BattleShipServer
+Firstly run javac BattleShipServer.java
+Secondly run java BattleShipServer
 # Output: --- BattleShip Server Started on Port 8888 ---
+
 
 2. Start Client A (Player 1)
 
-
-javac BattleShipClient.java
-java BattleShipClient
+Firstly run javac BattleShipClient.java
+Secondly java BattleShipClient
 # Follow the menu to REGISTER or LOGIN
 
-3. Start Client B (Player 2) Open a new terminal window and run the client again.
-Bash
 
-java BattleShipClient
+3. Start Client B (Player 2) Open a new terminal window and run the client again.
+
+Firsttly run java BattleShipClient
 # Login with a different account
 
 📝 License
 
-This project was created for the CCS3320 Network Computing coursework.
+This project was created for the CCS3320 Network Computing coursework module on my University.
