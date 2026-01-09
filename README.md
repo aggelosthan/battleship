@@ -49,21 +49,21 @@ The system avoids Peer-to-Peer communication to ensure security and state consis
 
 1. Start the Server
 
-Firstly run javac BattleShipServer.java
-Secondly run java BattleShipServer
+run javac BattleShipServer.java<br>
+run java BattleShipServer<br>
 # Output: --- BattleShip Server Started on Port 8888 ---
 
 
 2. Start Client A (Player 1)
 
-Firstly run javac BattleShipClient.java
-Secondly java BattleShipClient
+run javac BattleShipClient.java<br>
+run java BattleShipClient<br>
 # Follow the menu to REGISTER or LOGIN
 
 
 3. Start Client B (Player 2) Open a new terminal window and run the client again.
 
-Firsttly run java BattleShipClient
+run java BattleShipClient
 # Login with a different account
 
 📝 License
