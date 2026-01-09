@@ -5,7 +5,6 @@ A robust, CLI-based implementation of the classic Battleship strategy game, buil
 This project demonstrates core Network Computing concepts, including TCP/IP communication, Client-Server architecture, Thread Synchronization, and custom Application Layer Protocols.
 📷 Preview
 
-(Optional: Take a screenshot of your Blue/Green terminal board and paste it here!)
 🚀 Key Features
 
     Client-Server Architecture: Centralized server manages game state, preventing P2P cheating.
@@ -49,14 +48,13 @@ The system avoids Peer-to-Peer communication to ensure security and state consis
 🎮 How to Run
 
 1. Start the Server
-Bash
 
 javac BattleShipServer.java
 java BattleShipServer
 # Output: --- BattleShip Server Started on Port 8888 ---
 
 2. Start Client A (Player 1)
-Bash
+
 
 javac BattleShipClient.java
 java BattleShipClient
@@ -68,12 +66,6 @@ Bash
 java BattleShipClient
 # Login with a different account
 
-📜 Command Cheat Sheet
-Command	Description	Example
-LOGIN	Log in to the server	LOGIN:jack@sparrow
-CHALLENGE	Challenge an online player	CHALLENGE:blackbeard
-PLACE_SHIP	Place ships during setup	PLACE_SHIP:A,0,V
-FIRE	Attack enemy coordinates	FIRE:B,5
 📝 License
 
 This project was created for the CCS3320 Network Computing coursework.
